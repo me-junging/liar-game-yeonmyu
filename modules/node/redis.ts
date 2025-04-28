@@ -2,8 +2,9 @@ import { RedisRoom } from '@/types/redis'
 import Redis from 'ioredis'
 import { redisRoomSchema } from '../shared/schema'
 
-const redis = new Redis({
-  password: process.env.REDIS_PASSWORD,
+// Redis 연결 설정 (환경 변수에서 REDIS_URL 가져오기)
+const redis = new Redis(process.env.REDIS_URL, {
+  password: process.env.REDIS_PASSWORD,  // 비밀번호가 별도로 필요한 경우
 })
 
 export default redis
