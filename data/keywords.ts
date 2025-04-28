@@ -60,7 +60,7 @@ const keywords: Record<Subject, string[]> = {
     '컴 프롬 어웨이',
     '스토리 오브 마이 라이프',
     '홀연했던 사나이',
-    그해 여름',
+    '그해 여름',
     '긴긴밤',
     '니진스키',
     '라이카',
@@ -78,71 +78,5 @@ const keywords: Record<Subject, string[]> = {
     '줄리 앤 폴',
   ],
 }
-
-// const keywords: Keyword[] = [
-//   {
-//     subject: '스포츠',
-//     keyword: '축구',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '야구',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '농구',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '배구',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '탁구',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '테니스',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '볼링',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '골프',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '스쿼시',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '스키',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '스노우보드',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '스케이트보드',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '배드민턴',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '수영',
-//   },
-//   {
-//     subject: '스포츠',
-//     keyword: '등산',
-//   },
-//   {
-
-//   }
-// ]
 
 export default keywords
